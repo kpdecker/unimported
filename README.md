@@ -2,7 +2,7 @@
 
 **Find unused source files in javascript / typescript projects.**
 
-![screenshot of unimported results](./docs/screenshot-react.png)
+![screenshot of unimported results](./docs/unimported.png)
 
 While adding new code to our projects, we might forget to remove the old code. Linters warn us for unused code in a module, but they fail to report unused files.
 
@@ -65,7 +65,7 @@ Save the file as `.unimportedrc.json` in the root of your project (next to `pack
 }
 ```
 
-**Custom module directory**  
+**Custom module directory**
 You can also add an optional `moduleDirectory` option to your configuration file to resolve dependencies from other directories than `node_modules`. This setting defaults to `node_modules`.
 
 ```json
@@ -76,8 +76,7 @@ You can also add an optional `moduleDirectory` option to your configuration file
 
 **Custom aliases**
 If you wish to use aliases to import your modules & these can't be imported
-directly (e.g. `tsconfig.json` in the case of Typescript), there is an option
-`aliases` to provide the correct path mapping:
+directly (e.g. `tsconfig.json` in the case of Typescript), there is an option `aliases` to provide the correct path mapping:
 
 ```json
 {
@@ -243,6 +242,10 @@ It ain't pretty, but it should work.
 - [unrequired](https://npmjs.com/unrequired)
 - [trucker](https://npmjs.com/trucker)
 
+## License
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/smeijer/unimported/blob/main/LICENSE)
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -272,6 +275,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.code-root.com/"><img src="https://avatars.githubusercontent.com/u/57859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Westermann</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=lswest" title="Code">💻</a> <a href="https://github.com/smeijer/unimported/commits?author=lswest" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/simonwinter"><img src="https://avatars.githubusercontent.com/u/1104537?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Winter</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=simonwinter" title="Code">💻</a> <a href="https://github.com/smeijer/unimported/commits?author=simonwinter" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/stovmascript"><img src="https://avatars.githubusercontent.com/u/14262802?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martin Šťovíček</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=stovmascript" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.incaseofstairs.com/"><img src="https://avatars.githubusercontent.com/u/196390?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Decker</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=kpdecker" title="Code">💻</a> <a href="https://github.com/smeijer/unimported/commits?author=kpdecker" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/olidacombe"><img src="https://avatars.githubusercontent.com/u/1752435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>olidacombe</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=olidacombe" title="Code">💻</a></td>
+    <td align="center"><a href="https://in.linkedin.com/in/punit-makwana/"><img src="https://avatars.githubusercontent.com/u/16760252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Punit Makwana</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=punitcodes" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/kkpalanisamy"><img src="https://avatars.githubusercontent.com/u/8186979?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Palanisamy KK</b></sub></a><br /><a href="https://github.com/smeijer/unimported/commits?author=kkpalanisamy" title="Documentation">📖</a></td>
   </tr>
 </table>
 
